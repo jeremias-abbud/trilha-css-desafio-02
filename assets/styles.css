@@ -1,0 +1,285 @@
+body {
+    width: auto;
+    height: auto;
+    top: -512px;
+    left: -720px;
+
+
+}
+
+.menu {
+    width: Fixed (1, 440px);
+    height: Fixed (56px);
+    padding: 0px, 24px, 0px, 24px;
+    justify-content: space-between;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.menu .left {
+    width: 146px;
+    height: 24px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.menu .center {
+    width: 404px;
+    height: 40px;
+    border: 1px;
+    border: 1px solid #CCCCCC;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.menu .center .rectangle-1 {
+    width: 348px;
+    height: 40px;
+    top: 8px;
+    left: 526px;
+    border: 1px solid #CCC;
+    background: #FFF;
+}
+
+.menu .center .rectangle-2 {
+    width: 57px;
+    height: 40px;
+    top: 8px;
+    left: 873px;
+    border: 1px solid #CCC;
+    background: #F8F8F8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+
+}
+
+.menu .center .search {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+
+}
+
+.menu .right {
+    width: Hug (130px);
+    height: Hug (34px);
+    gap: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar {
+    border-radius: 34px;
+    background: lightgray 50% / cover no-repeat;
+}
+
+.main {
+    width: Hug (952px);
+    height: Hug (746px);
+    top: 84px;
+    left: 75px;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+    padding-top: 20px;
+
+}
+
+.watching {
+    width: Hug (952px);
+    height: Hug (746px);
+    top: 84px;
+    left: 75px;
+    gap: 16px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.sidebar {
+    width: Hug (160px);
+    height: Hug (938px);
+    top: 84px;
+    left: 1052px;
+    gap: 16px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+
+}
+
+.sidebar .video {
+    display: flex;
+    height: 90px;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.sidebar .video .thumb {
+    width: 160px;
+    height: 90px;
+
+}
+
+.sidebar .video .thumb .infos {
+    width: 196px;
+    height: 89px;
+    left: 176px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.sidebar .video .texto-1 {
+    color: #000;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.sidebar .video .texto-2 {
+    color: #515151;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 8px;
+}
+
+.sidebar .video .texto-3 {
+    color: #515151;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.watching .texto-1 {
+    color: #000;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.video-actions {
+    width: Hug (902px);
+    height: Hug (42px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 42px;
+}
+
+.video-actions .channel-infos {
+    width: Hug (160px);
+    height: Hug (42px);
+    gap: 12px;
+    display: flex;
+    align-items: center;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.video-actions .subscribe-buttons button {
+    width: 159px;
+    height: 40px;
+    border-radius: 8px;
+    flex-shrink: 0;
+    border-radius: 2px;
+    border-color: transparent;
+    background: #C00;
+    background-image: url(/assets/Button.png);
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.video-actions .like,
+.video-actions .deslike,
+.video-actions .share,
+.video-actions .download {
+    width: auto;
+    height: 28px;
+    top: 13px;
+    left: 435px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000;
+    display: flex;
+}
+
+.video-actions .share .vector,
+.video-actions .download .vector,
+.video-actions .like .vector,
+.video-actions .deslike .vector {
+    width: auto;
+    height: 24px;
+    top: 9px;
+    left: 403px;
+    flex-shrink: 0;
+}
+
+.video-actions .like .texto,
+.video-actions .deslike .texto {
+    color: #000;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 70px;
+    height: 25px;
+    display: inline-flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.description {
+    width: 510px;
+    color: #515151;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
